@@ -32,6 +32,7 @@ public class SetPhoneWallpaper extends AppCompatActivity {
         imageView = findViewById(R.id.imageGalery);
         botStarted = findViewById(R.id.botStart);
         wallpaperManager = WallpaperManager.getInstance(getApplicationContext());
+
         bitmapDrawable = (BitmapDrawable) imageView.getDrawable();
         bitmapE = bitmapDrawable.getBitmap();
 
